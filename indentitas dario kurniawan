@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Menghubungkan CSS -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Identitas Dario</title>
+</head>
+<body>
+
+      <!-- Judul --> 
+      <header>
+      <h1>Dario Kurniawan</h1>
+      </header>
+      
+      <hr>
+      <!-- Tentang Saya -->
+      <section>
+        <h2>Tentang Saya</h2>
+        <p>Halo! Nama saya Dario. Saya adalah seorang pelajar yang memiliki rasa ingin tahu tinggi dan senang mencoba hal-hal baru. Saya tertarik pada teknologi, pemrograman, dan dunia kreatif.
+Bagi saya, belajar bukan hanya tentang mendapatkan nilai, tetapi juga tentang mengembangkan kemampuan dan menemukan hal-hal baru yang bisa saya lakukan.</p>
+      </section>
+
+      <!-- Biodata -->
+        <section>
+            <h2>Biodata</h2>
+            <ul>
+            <li>Nama: Dario Kurniawan</li>
+            <li>Tempat, Tanggal Lahir: Jakarta, 7 agustus 2009</li>
+            <li>Status: Pelajar</li>
+            <li>Cita-cita: Menjadi orang sukses di bidang teknologi</li>
+            </ul>
+        </section>
+
+        <!-- Keahlian --> 
+        <section>
+            <h2>Keahlian</h2>
+            <ul>
+            <li>Bahasa Pemrograman: Python, JavaScript, HTML, CSS</li>
+            <li>Bahasa yg dikuasai: Indonesia, Inggris, Mandarin</li>
+            <li>Komunikasi: Mampu berkomunikasi dengan baik dalam tim</li>
+            </ul>
+            </section>
+
+        <!-- Kontak -->
+         <section>
+            <h2>Kontak</h2>
+            <ul>
+            <li><p>No wa: 085119818799</p></li>
+            <li><p>email: dariogamingpro@gmail.com</p></li>
+            <li><p>Instagram: @dario_kurniawan2 / @dario_kurniawan1</p></li>
+            </ul>
+         </section>
+
+         <!-- Footer -->
+          <footer>
+         <p>&copy; 2026 Dario. Semua Hak Dilindungi.</p> </footer>
+         <footer>
+
+        <!-- java script -->
+         <script>
+        // 1. Pesan ketika website dibuka
+        alert("Selamat datang di website Dario!");
+
+        // 2. Membuat tombol menggunakan JavaScript
+        let tombol = document.createElement("button");
+
+        // 3. Memberikan tulisan pada tombol
+        tombol.innerHTML = "👋 adakah pertanyaan? , jika ada klik tombol ini";
+
+        // 4. Mengatur tampilan tombol
+        tombol.style.padding = "12px 20px";
+        tombol.style.fontSize = "16px";
+        tombol.style.cursor = "pointer";
+        tombol.style.margin = "20px";
+
+        // 5. Memasukkan tombol ke halaman HTML
+        document.body.appendChild(tombol);
+
+        // 6. Membuat fungsi ketika tombol diklik tombol.
+        tombol.onclick = function() {
+            alert("jika ada yg ingin ditanyakan, silahkan hubungi saya melalui kontak yang tersedia di website ini. Terima kasih!");
+
+        };
+</script>
+
+</body>
+</html>
