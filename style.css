@@ -1,0 +1,83 @@
+/* Mengatur seluruh halaman */
+body {
+      font-family: Arial, sans-serif; 
+      background-color: #f2f6ff; 
+      color: #333; 
+      margin: 0; 
+      padding: 0;
+}
+
+/* Bagian Header */
+header { 
+        background-color: #4a6cf7; 
+        color: white; 
+        text-align: center; 
+        padding: 40px 20px;
+ }
+
+header h1 {
+          font-size: 40px; 
+          margin-bottom: 10px; 
+}
+
+header p { 
+         font-size: 18px; 
+}
+
+/* Garis */ 
+hr { 
+    border: none; 
+    height: 2px; 
+    background-color: #ddd; 
+}
+
+/* Semua Section */ 
+section { 
+        background-color: white; 
+        width: 80%; 
+        max-width: 800px; 
+        margin: 25px auto; 
+        padding: 25px; 
+        border-radius: 15px; 
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul Section */ 
+section h2 {
+           color: #4a6cf7; 
+           border-bottom: 2px solid #4a6cf7; 
+           padding-bottom: 8px;
+}
+
+/* Paragraf */ 
+section p { 
+          font-size: 16px; 
+          line-height: 1.7;
+ }
+
+ /* Daftar */ 
+ ul { 
+    line-height: 2; 
+} 
+li { 
+    margin-bottom: 5px;
+ }
+
+ /* Footer */ 
+ footer { 
+        background-color: #222; 
+        color: white; 
+        text-align: center; 
+        padding: 25px; 
+        margin-top: 40px; 
+}
+
+/* Tampilan HP */ 
+@media (max-width: 600px) { 
+       header h1 { 
+                font-size: 30px; 
+            } 
+            section { 
+                     width: 85%;
+                     } 
+}
